@@ -1,0 +1,151 @@
+////
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 45 分钟有关如何做开源准备的概述内容
+:keywords: 开源准备
+:authors: 姜宁
+:email: willem.jiang@gmail.com
+
+
+== 开源准备快速入门
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+
+== 启动一个开源项目
+* 将个人的愿景转化成为公共的愿景
+* 明确项目的边界
+* 将项目打包展示给公众
+* 为新参与的成员提供所需要一切资料和帮助
+[NOTE.speaker]
+--
+也许你的组织很清楚相关的愿景， 但是将这些目标清楚地传递给大家是需要花费一些功夫的
+明确项目的边界， 输出项目的使命声明， 
+需要把项目展示给大家， 降低新手的参与成本，让新手能够自服务
+--
+
+=== 给项目选一个好名称
+* 响亮的名字一下子就让大家联想到项目是做什么？
+* 名字是便于记忆的， 双关语可能会让名字更加精彩。
+* 不与其他的项目重名， 且不侵犯任何商标权
+* 尽可能使用.net, .org, 或者.io 的顶级域名
+* 在社交媒体上使用相同的用户名
+[NOTE.speaker]
+--
+可使用 http://www.uspto.gov/检索商标
+以Gnome项目为例 https://gnome.org, 
+https://twitter.com/gnome, https://github.com/gnome
+--
+
+
+=== 提供一个使命声明 
+* 项目主页提供一个简短的项目描述或者使命声明
+* 声明放在项目首页显著位置， 最好是在项目名下方
+* 使命声明必须具体、并且紧凑简短
+
+[NOTE.speaker]
+--
+使命声明让大家在30秒钟了解项目概况
+--
+
+=== 项目使命声明示例
+
+[NOTE.speaker]
+--
+使命声明用四句话传达了所有的要点
+利用读者已有的知识储备就能理解
+--
+
+=== 声明项目的开源属性
+* 项目网站首页必须清楚写明这是一个开源项目
+* 声明项目类型是”自由软件“还是”开源软件“
+* 注意现在也有”提供源代码“软件许可
+[NOTE.speaker]
+--
+有一些极端情况在项目网页找不到软件许可证信息
+--
+
+== 提供特性和需求列表
+* Slide file formats
+* They do have advantages and neat features
+* ...but lots of disadvantages
+
+== 描述项目的开发状态
+* Easy to edit
+* Easy to translate
+* Real version control
+* Searchable
+
+== 提供下载地址
+* Simple markdown style markup
+* OS license (MIT license)
+* Multiple outputs
+* Looks nice by default
+* https://github.com/asciidoctor/asciidoctor
+
+== 版本控制
+* HTML / CSS
+* Reveal.js
+* Ruby, Node, Maven
+
+== 问题追踪系统
+
+== 项目沟通渠道
+* Speaker notes / timer
+* Keyboard navigation
+* Vertical slides
+* Simple markup
+* Styled via CSS
+* PDF generation
+
+== 开发者指南
+* HTML in browser
+* Self hosted web server
+
+== 项目文档
+* Copy text
+* Markup
+* Convert assets
+* ...
+* Profit!
+
+== 开发者文档
+[code]
+----
+Put your text here
+----
+
+== Demo，视频，样例
+
+== 托管平台
+
+== 选择和应用许可证
+
+== 制定规则
+
+== 开放代码
+
+== You can help!
+* Did you speak at this conference?
+* Have some internal training material?
+* Have slide desks from other conference?
+* Consider donating
+
+== Questions?
+Ask now, see me after the session,
+or email me at {email}.

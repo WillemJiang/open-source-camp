@@ -2,4 +2,4 @@
 Providing tutorials for the newbie of open source
 
 ## Contents
-* Basic information about OpenSource
+* Basic information about How to running the OpenSource
