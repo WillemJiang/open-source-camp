@@ -18,6 +18,7 @@
 :keywords: 开源准备
 :authors: 姜宁
 :email: willem.jiang@gmail.com
+:imagesdir: ../resource/images/
 
 
 == 开源准备快速入门
@@ -32,6 +33,7 @@
 * 明确项目的边界
 * 将项目打包展示给公众
 * 为新参与的成员提供所需要一切资料和帮助
+
 [NOTE.speaker]
 --
 也许你的组织很清楚相关的愿景， 但是将这些目标清楚地传递给大家是需要花费一些功夫的
@@ -45,6 +47,7 @@
 * 不与其他的项目重名， 且不侵犯任何商标权
 * 尽可能使用.net, .org, 或者.io 的顶级域名
 * 在社交媒体上使用相同的用户名
+
 [NOTE.speaker]
 --
 可使用 http://www.uspto.gov/检索商标
@@ -64,10 +67,14 @@ https://twitter.com/gnome, https://github.com/gnome
 --
 
 === 项目使命声明示例
+The Apache™ Hadoop® project develops open-source software for reliable, scalable, distributed computing.
+
+The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
 [NOTE.speaker]
 --
-使命声明用四句话传达了所有的要点
+第一句话概括说明项目的定位
+后续的项目使命声明用四句话传达了所有的要点
 利用读者已有的知识储备就能理解
 --
 
@@ -75,64 +82,104 @@ https://twitter.com/gnome, https://github.com/gnome
 * 项目网站首页必须清楚写明这是一个开源项目
 * 声明项目类型是”自由软件“还是”开源软件“
 * 注意现在也有”提供源代码“软件许可
+
 [NOTE.speaker]
 --
 有一些极端情况在项目网页找不到软件许可证信息
 --
 
-== 提供特性和需求列表
-* Slide file formats
-* They do have advantages and neat features
-* ...but lots of disadvantages
+=== 提供特性和需求列表
+* 列出软件支持的各种特性
+* 是软件使命声明的进一步扩展
+* 帮助读者快速决定这个软件是否适用
+* 考虑是否以开发者的身份参与其中
 
-== 描述项目的开发状态
-* Easy to edit
-* Easy to translate
-* Real version control
-* Searchable
+=== 描述项目的开发状态
+* 帮助大家了解项目的进展状况
+* 了解项目承诺与现实情况的差距
+* 项目的维护情况，项目最近的发版
+* 项目的路标以及进展的情况
+* 不要夸大项目的稳定性
 
-== 提供下载地址
-* Simple markdown style markup
-* OS license (MIT license)
-* Multiple outputs
-* Looks nice by default
-* https://github.com/asciidoctor/asciidoctor
+=== 提供下载地址
+* 提供标准格式的软件二进制以及源代码下载
+* 提供标准化构建以及安装方法
+* 请在项目初始阶段就提供这些文档
+* 发布版本时需要提供一个唯一的版本号
 
-== 版本控制
-* HTML / CSS
-* Reveal.js
-* Ruby, Node, Maven
+[NOTE.speaker]
+--
+降低贡献者参与的难度，一开始就需要挺软件的构建和测试方法
+--
 
-== 问题追踪系统
+=== 版本控制
+* 使用Git来追踪项目的代码提交记录
+* 有多个代码托管平台可以选择
+** Github
+** Gitee
+** GitBucket
 
-== 项目沟通渠道
-* Speaker notes / timer
-* Keyboard navigation
-* Vertical slides
-* Simple markup
-* Styled via CSS
-* PDF generation
+=== 问题追踪系统
+* Bug追踪
+* 代码功能增强请求
+* 文档变更
+* 待处理的任务
+* Github issues vs JIRA
 
-== 开发者指南
-* HTML in browser
-* Self hosted web server
+=== 项目沟通渠道
+* 邮件列表
+* 聊天室 Slack
+* IRC频道
+* 建议把开发者和用户讨论分开
 
-== 项目文档
-* Copy text
-* Markup
-* Convert assets
-* ...
-* Profit!
+=== 开发者指南
+* 软件开发环境设置，如何进行编译测试
+* 项目的架构说明文档
+* 开发者交流论坛的链接
+* 如何报告Bug和提交补丁的指导
+* 关于开发和决策方式的说明
 
-== 开发者文档
-[code]
-----
-Put your text here
-----
+[NOTE.speaker]
+--
+http://subversion.apache.org/docs/community-guide/
+https://wiki.documentfoundation.org/Development
+--
 
-== Demo，视频，样例
+=== 项目文档
+* 清楚告诉读者他们所需的技术技能
+* 清楚完整地描述如何配置软件
+* 提供一个教程式的示例，演示如何执行一项普通任务
+* 标记文档中未完成的部分
+* 维护一个FAQ
 
-== 托管平台
+[NOTE.speaker]
+--
+对于初始用户来说，最重要的是基础文档：软件快速配置文档、软件工作原理概述，或许还有一些常规操作的指导。而这些通常恰恰是编写者再熟悉不过的内容。这让他们很难从读者的角度看待问题。
+
+好的FAQ不是写出来的，而是充实起来的。顾名思义，FAQ是被动进行记录的文档。随着时间向前推移，FAQ根据人们对软件提出的问题以及相应的解答完成了自我进化。
+--
+
+=== 开发者文档
+* 开发者文档由程序员编写
+* 主要用于帮助其他程序员理解代码
+* 以便他们能够对代码进行修改和扩展。
+* 用来记录与开发上下文相关的信息
+
+[NOTE.speaker]
+--
+目前可以使用的工具 wiki
+https://readthedocs.org/
+--
+
+=== Demo,视频,样例
+* 软件图形化用户界面的截图或者是视频
+* 如果是一个Web软件，可以提供Demo网站
+* 视频内容要简洁，控制在四分钟之内
+
+=== 托管平台
+* 项目的资料放在什么地方？
+* 协作网站提供代码库
+
 
 == 选择和应用许可证
 
