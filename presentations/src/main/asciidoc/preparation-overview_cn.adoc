@@ -16,7 +16,7 @@
 == !
 :description: 45 分钟有关如何做开源准备的概述内容
 :keywords: 开源准备
-:authors: 姜宁
+:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
 :email: willem.jiang@gmail.com
 :imagesdir: ../resource/images/
 
@@ -174,24 +174,67 @@ https://readthedocs.org/
 === Demo,视频,样例
 * 软件图形化用户界面的截图或者是视频
 * 如果是一个Web软件，可以提供Demo网站
-* 视频内容要简洁，控制在四分钟之内
+* 视频内容要简洁，时间控制在四分钟之内
 
 === 托管平台
-* 项目的资料放在什么地方？
-* 协作网站提供代码库
+* 项目的相关的资料存放
+* 协作网站提供
+** 代码库
+** Bug追踪
+** 开发wiki
+** 邮件列表
 
 
-== 选择和应用许可证
+== 选择许可证
+* 常见软件许可
+** Give me everything 
+** Give me fix
+** Give me credit
+
+[NOTE.speaker]
+--
+万能许可证 MIT， 提供免责声明，只保留署名权
+--
+
+=== 应用许可证
+* 在代码根目录下提供 LICNESE 或者 COPYING 文件
+* 源文件头加入 License header
+** 包含版权日期，所有者以及许可证信息
+
+[NOTE.speaker]
+--
+TODO 加入一些 License Header 示例的图片
+--
 
 == 制定规则
+* 规则是大家长期积累的
+* 避免私下讨论，团队的智慧是无穷的
+* 把粗鲁的行为消灭在萌芽阶段，避免人身攻击
+* 制定行为准则 code of conduct
+* 践行显性化的代码检视
+
+[NOTE.speaker]
+--
+公开的讨论将有助于培训和教育新加入的开发者
+这样的讨论可以锻炼你想不熟悉软件的人解释技术问题的能力
+讨论记录将会保存在公共的邮件归档并提供检索
+常见的coc https://www.contributor-covenant.org/
+代码检视：交流工作内容， 了解相关代码库的变更， 减少低级代码错误
+邮件列表diff评论 或者 github PR review
+--
 
 == 开放代码
+* 从第一天起， 项目就应该是能够对外开放的
+* 害怕额外的责任，害怕失去对项目的控制
+* 敏感信息被写入了代码库
+* 引入了内部的依赖
+* 模块化设计相关的问题
+[NOTE.speaker]
+--
+项目以闭源的方式运作越久就越难开源
 
-== You can help!
-* Did you speak at this conference?
-* Have some internal training material?
-* Have slide desks from other conference?
-* Consider donating
+--
+
 
 == Questions?
 Ask now, see me after the session,
