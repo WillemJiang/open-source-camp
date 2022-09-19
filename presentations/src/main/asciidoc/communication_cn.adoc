@@ -1,0 +1,144 @@
+////
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 60 分钟有关如何进行开放式协作沟通的概述内容
+:keywords: 开放式,协作,沟通
+:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
+:email: willem.jiang@gmail.com
+:imagesdir: ../resource/images/
+
+
+== 开放式协作沟通
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+
+== 沟通的重要性
+* 招募用户和开发人员
+* 培养新贡献者
+* 自由讨论的同时做出必要的决策
+* 维护领域知识库，帮助新人和专家
+* 软件使用文档
+
+[NOTE.speaker]
+--
+吸引更多的开发人员， 维护领域知识，确保项目成员的高效交流
+思考： 为什么不建议大家使用微信
+--
+
+== 书面交流的文化
+* 清晰的书面表达能力非常重要
+* 编程能力与技术问题描述能力有共通之处
+* 开源软件开发的受众背景知识不同
+* 如何保证大家在公共论坛保持建设性的沟通
+
+[NOTE.speaker]
+--
+异步化的沟通，需要通过文字来进行
+项目的参与者可以采用自服务的方式获取信息
+--
+
+
+=== 文如其人
+* 在互联网上大家是通过你写的东西认识你
+* 你可能很聪明、有洞察力、有内涵
+* 表述清楚、有条理可以极大提升表达沟通的效率 
+
+[NOTE.speaker]
+--
+大家可以尝试一下30秒钟把问题说清楚
+TODO 添加一些反向示例
+--
+
+=== 结构与格式
+* 我们不是在聊天， 句子要完整
+* 使用标准的语法和拼写，叙述需要连贯
+* 保持文本的易读性，让更多的人
+* 尽量避免歧义 
+
+[NOTE.speaker]
+--
+第一句话概括说明项目的定位
+后续的项目使命声明用四句话传达了所有的要点
+利用读者已有的知识储备就能理解
+--
+
+=== 电子邮件格式约定
+* 只发送纯文本邮件
+* 有清晰的格式标明段落
+* 代码或者错误消息保持在80列宽
+* 引用别人邮件时，将回复插入最合适的位置
+* 邮件标题行一定要认真写
+
+[NOTE.speaker]
+--
+邮件列表出来附件会很复杂
+引用别人邮件的时候，裁剪掉无关的内容
+回复置顶 或者 先引用原文
+如果主题偏离，需要修改邮件标题
+--
+
+=== 内容
+* 采用最方便读者的形式提供信息
+* 不要夸大其词，采用技术中立的描述语言
+* 发送邮件之前，花点时间检查撰写的内容
+
+[NOTE.speaker]
+--
+多花几分钟提炼内容，提升沟通效率
+花点时间检查你的发送的内容， 你的邮件在结构上越集中， 别人就越有可能读到它们。 
+--
+
+
+=== 语气
+* 在撰写了几千封邮件之后， 邮件风格会趋向简洁
+* 重点在于表述问题，没有问候，没有签名。
+* 采用技术语言的沟通方式，目的是为了解决问题
+* 可以结尾加上祝福，打破冷漠的尴尬 
+[NOTE.speaker]
+--
+TODO， 提供邮件示例
+--
+
+=== 避免粗鲁
+* 不是粗鲁的表现
+** 技术性批评、不加修饰的技术批评
+** 直率、朴实无华的提问
+* 粗鲁的表现
+** 没有详细描述的无端批评
+** 针对个人的评论，人身攻击
+
+=== 个人标识（面孔）
+* 网络世界直观的认识，真实的网络名称
+** From “Willem Jiang 姜宁” <willem.jiang@gmail.com>
+** Twitter： WillemJiang， Github ID： WillemJiang
+* 邮件的个人签名
+* 头像Avta
+
+[NOTE.speaker]
+--
+
+避免配置巨大的免责声明
+使用个人邮箱参与开源项目
+--
+
+== 撰写邮件需要注意的内容
+
+== Questions?
+Ask now, see me after the session,
+or email me at {email}.
