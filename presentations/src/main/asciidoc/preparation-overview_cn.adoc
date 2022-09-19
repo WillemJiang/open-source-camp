@@ -14,7 +14,7 @@
 
 ////
 == !
-:description: 45 分钟有关如何做开源准备的概述内容
+:description: 60 分钟有关如何做开源准备的概述内容
 :keywords: 开源准备
 :authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
 :email: willem.jiang@gmail.com
