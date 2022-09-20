@@ -34,5 +34,8 @@ target/
 .classpath
 .project
 
-#skip the maven-wrapper.jar
+# skip the maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.jar
+
+# viscode file
+.vscode/
