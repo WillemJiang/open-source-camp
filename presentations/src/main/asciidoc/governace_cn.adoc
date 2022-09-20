@@ -1,0 +1,86 @@
+////
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 60 分钟如何进行社群治理
+:keywords: 开放式,协作,沟通
+:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
+:email: willem.jiang@gmail.com
+:imagesdir: ../resource/images/
+
+== 社群治理
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+
+== 社群与动机
+* 大家为什么要参与开源项目？
+** 解决自己的痛点问题
+** 有很强的内在的动机
+** 开发好用的软件
+** 通过合作赢得尊重
+
+[NOTE.speaker]
+--
+* 《黑客为何会这样做：理解自由/开源软件项目的动机和努力》
+* http://flosshub.org/node/53
+--
+
+
+=== 委托
+* 常规分散工作量的方式
+* 通过示弱和协商的方式 
+* 受托者意识到相关的信任
+* 感受到接受任务的压力
+* 通过委托可以吸引人们更加精密的参与项目
+
+=== 任务分配与跟进
+* 社群中的任务是很难分配的
+* 通过询问的方式分配任务
+* 被分配的人可以自由接受或拒绝这项任务
+* 关注人们感兴趣的内容
+* 公开的讨论跟进进展问题
+
+
+=== 赞扬与批评
+* 不要吝啬赞扬， 这是最有效的激励
+* 赞扬的时候也需要注意好毒
+* 具体冷静的批评是值得推崇的
+
+=== 防止属地主义
+
+=== 自动化
+
+=== 潜在的参与者
+
+=== 面对面会议
+
+
+=== 分担管理任务和技术任务
+
+
+* 招募用户和开发人员
+* 培养新贡献者
+* 自由讨论的同时做出必要的决策
+* 维护领域知识库，帮助新人和专家
+* 软件使用文档
+
+[NOTE.speaker]
+--
+* 吸引更多的开发人员， 维护领域知识，确保项目成员的高效交流
+* 思考： 为什么不建议大家使用微信？
+--
