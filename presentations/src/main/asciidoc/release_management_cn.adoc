@@ -1,0 +1,184 @@
+////
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 60 分钟有关开源项目日常软件发布的问题
+:keywords: 日常开发
+:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
+:email: willem.jiang@gmail.com
+:imagesdir: ../resource/images/
+
+
+== 开放式协作沟通
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+
+== 开源项目版本发布
+* 版本发布的策略
+** 完全关闭道路，维修人员完全投入
+** 多分支并行开发，保证版本的持续维护
+* 开源项目版本的持续小修小补
+* 开发人员的工作时间不好保证，需要并行处理问题
+
+[NOTE.speaker]
+--
+* 以高速公路的维护为例
+* 虽然需要长时间的修补，但是保证社群有可以持续反馈的版本
+--
+
+== 为什么设定软件版本编号
+* 修复了老的版本Bug
+* 添加了新特性
+* 添置的新的配置选项
+* 引入了不兼容的修改
+* 体现特定系列内的版本顺序
+* 表明每个版本中变更的程度和性质
+
+[NOTE.speaker]
+--
+* 特殊语义的版本示例
+* 使用Git Commit ID
+--
+
+== 版本号组成
+* 三位数的版本号 
+** 主版本号.次版本号.小版本号
+** Singer 5.11.4 
+* 版本号 + 限定词
+** Scanley 2.3.0 (RC1)
+** Singer 5.11.4 (Beta)
+
+=== 版本号的语义
+* 小版本的变化为需要保证前后的兼容性
+* 次版本号变化必须保证后向兼容
+* 主版本变更不必考虑兼容性
+
+[NOTE.speaker]
+--
+* 小版本多为bug fix
+* 次版本可以添加少量修改的不大的新功能
+* 主版本会包含新的特性，或者是完全新的特性集合
+* 讨论问题： 大家升级版本中遇到的问题
+--
+
+=== 奇偶数策略
+* 大多应用在次版本号上 
+** 偶数表示稳定版
+** 奇数表示不稳定版
+** 适合发布周期较长的项目
+** 也可以通过其他方式进行标注
+
+[NOTE.speaker]
+--
+* Linux内核之前采用的是这个策略
+* https://en.wikipedia.org/wiki/Linux_kernel_version_history
+--
+
+=== 版本分支
+* 开发分支要保证可以持续合如代码
+* 隔离版本工作与日常开发变动
+* 多分支策略可以保证大家各司其职
+* 分支维护的技巧
+** 稳定版本 Bug fix 策略
+** 分支上游优先的维护关系
+
+=== 稳定版本
+* 处于可以随时发布状态的版本
+* 通过冻结新功能达成稳定版
+** 基于时间的版本
+** 基于特性的版本
+
+=== 版本的负责人
+* 可以决定那些变更可以合入版本
+* 具备理解所有变更的技术能力
+* 具备社群威望和社交技巧
+* 能够掌控有关版本发布的讨论
+
+=== 变更的表决
+* 开发者有权对是否合入变更进行投票
+* 投票必须有正当的（技术）理由
+* 先review在合入 +2 投票
+* 先合入再review -1 投票
+
+=== 版本经理
+* 按照发布流程推动版本发布
+** 确定版本发布时间点
+** 维护和执行发布脚本
+** 准备release note
+** 发起和追踪投票
+** 完成发布版本工作
+
+== 打包
+* 版本发布包含:源代码和二进制便利包
+* 格式 Unix tar.gz; Windows zip
+* 文件包含: 
+**  README， COPYING 或者 LICNESE
+**  CHANGES 或者 NEWS
+**  INSTALL
+
+== 编译和安装
+* 常规的编译操作，让用户可以快速上手
+* C、C++代码
+[source]
+----
+$ ./configure
+$ marked
+# make install
+----
+* Java项目，使用maven
+[source]
+----
+$ mvn clean install
+----
+
+== 验证版本
+* Apache使用GnuPG对发布件进行数字签名
+* 需要引入发布人的Public key进行验证
+* 二进制哈希识别确保文件没有被篡改
+
+[NOTE.speaker]
+--
+* https://www.apache.org/dev/release-signing.html
+--
+
+== 版本发布公告
+* 通过公开的途径宣布版本发布
+* 提供URL下载相关tar文件
+* 确保签名和SHA1校验文件提供
+* 提供版本修改记录（Github也支持自动生成）
+* 感谢开发团队和测试人员以及提bug的贡献者
+
+== 多版本分支维护
+* 开源项目的生命周期支持
+* 常规维护分支 Bug fix，安全漏洞修补
+* 主线开发版本合入所有的修改
+* 一般不提供超过三个以上分支版本的维护
+* 控制好各个分支的修改提交粒度
+
+== 规划版本
+* 以志愿者为基础的版本规划时间不好安排
+* 一般通过商议的方式确定特性集
+* 平衡开源版本和商用版本发版策略
+* 提高版本发布评率可以降低版本规划矛盾
+
+[NOTE.speaker]
+--
+* release manage of large open source software
+* https://www.youtube.com/watch?v=IKsQsxubuAA
+--
+
