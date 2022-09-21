@@ -27,6 +27,11 @@ concurrency:
 jobs:
   # This workflow contains a single job called "build"
   build:
+     
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -42,18 +47,13 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
+    - name: Setup Pages
+      uses: actions/configure-pages@v2    
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
           # Upload the enter directory 
           path: './presentations/target/generated-slides'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v1
