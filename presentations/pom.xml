@@ -35,6 +35,7 @@
     <properties>
         <!-- Put your custom theme files in src/main/theme and reference the name (without ".css") here. -->
         <project.main.theme>my_simple</project.main.theme>
+        <project.images.directory>images</project.images.directory>
     </properties>
 
     <build>
@@ -69,7 +70,7 @@
                 ${project.build.directory}/asciidoctor-reveal.js-${asciidoctor-revealjs.version}/templates
               </templateDir>
               <attributes>
-                <imagesdir>images</imagesdir>
+                <imagesdir>${project.images.directory}</imagesdir>
                 <!--
                     Tell the system the relative path to the reveal.js files
                     inside the generated-slides directory.
