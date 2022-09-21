@@ -36,5 +36,79 @@
         <!-- Put your custom theme files in src/main/theme and reference the name (without ".css") here. -->
         <project.main.theme>my_simple</project.main.theme>
     </properties>
+
+    <build>
+     <plugins>
+      <!-- Need to override the imagesdir setting to support display the images in github and revealjs -->
+      <!-- TODO update the content-parent-pom of Apache training -->
+      <plugin>
+        <groupId>org.asciidoctor</groupId>
+        <artifactId>asciidoctor-maven-plugin</artifactId>
+        <version>${asciidoctor.maven.plugin.version}</version>
+        <executions>
+          <execution>
+            <id>generate-slides</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>process-asciidoc</goal>
+            </goals>
+            <configuration>
+              <!-- Tell asciidoctor to use the reveal.js backend and not the default html -->
+              <backend>revealjs</backend>
+              <!-- Configure where are all the asciidoc source files located -->
+              <sourceDirectory>src/main/asciidoc</sourceDirectory>
+              <!-- Configure the target director to where will the output be generated -->
+              <outputDirectory>${project.slides.directory}</outputDirectory>
+              <!-- Enable optional modules for generating diagrams and charts -->
+              <requires>
+                <require>asciidoctor-diagram</require>
+                <!--require>chart-block-macro</require-->
+              </requires>
+              <!-- This has to point to the asciidoctor-revealjs directory which contains all the "slim" files -->
+              <templateDir>
+                ${project.build.directory}/asciidoctor-reveal.js-${asciidoctor-revealjs.version}/templates
+              </templateDir>
+              <attributes>
+                <imagesdir>images</imagesdir>
+                <!--
+                    Tell the system the relative path to the reveal.js files
+                    inside the generated-slides directory.
+                -->
+                <revealjsdir>reveal.js-${revealjs.version}</revealjsdir>
+                <!--
+                    Use our custom theme, which is defined by src/main/theme/apache.css
+                    and copied inside the reveal.js installation by the resources plugin a few lines
+                    up inside this pom.
+                -->
+                <revealjs_theme>${project.main.theme}</revealjs_theme>
+                <!-- Some basic settings -->
+                <revealjs_transition>linear</revealjs_transition>
+                <project-version>${project.version}</project-version>
+                <source-highlighter>highlightjs</source-highlighter>
+                <!--highlightjs-theme>https://raw.githubusercontent.com/isagalaev/highlight.js/master/src/styles/arduino-light.css</highlightjs-theme-->
+                <erd>${basedir}/libs/third-party/erd/.stack-work/dist/x86_64-osx/Cabal-2.2.0.1/build/erd/erd</erd>
+                <mermaid>${basedir}/libs/third-party/node_modules/.bin/mmdc</mermaid>
+                <phantomjs>${basedir}/libs/third-party/phantomjs-2.1.1-macosx/bin/phantomjs</phantomjs>
+                <svgbob>${basedir}/libs/third-party/svgbob/bin/svgbob</svgbob>
+                <vg2svg>${basedir}/libs/third-party/node_modules/.bin/vg2svg</vg2svg>
+              </attributes>
+            </configuration>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj</artifactId>
+            <version>${asciidoctorj.version}</version>
+          </dependency>
+          <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj-diagram</artifactId>
+            <version>${asciidoctorj.diagram.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+     </plugins>
+    </build>
    
  </project>

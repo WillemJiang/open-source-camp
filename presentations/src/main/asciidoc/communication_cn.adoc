@@ -18,8 +18,8 @@
 :keywords: 开放式,协作,沟通
 :authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
 :email: willem.jiang@gmail.com
-:imagesdir: ../resource/images/
-
+:imagesdir: ../resources/images/
+image::OpenSourceCamp.jpeg[]
 
 == 开放式协作沟通
 {authors}
