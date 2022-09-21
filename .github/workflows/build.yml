@@ -15,8 +15,6 @@ permissions:
   pages: write
   id-token: write
 
-# Allows you to run this workflow manually from the Actions tab
-workflow_dispatch:
 
 # Allow one concurrent deployment
 concurrency:
