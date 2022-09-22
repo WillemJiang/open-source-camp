@@ -18,13 +18,14 @@
 == !
 :description: 60 分钟有关如何进行开放式协作沟通的概述内容
 :keywords: 开放式,协作,沟通
-:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
+:authors: 姜宁
 :email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
 
 == 开放式协作沟通
 {authors}
+
 
 == 讲师介绍
 * TODO 添加讲师相关的内容
@@ -147,6 +148,8 @@ image::OpenSourceCamp.jpeg[]
 == 常规的邮件讨论
 
 
+== 参考资料
+* https://producingoss.com/[生产开源软件]
 
 == Questions?
 Ask now, see me after the session,

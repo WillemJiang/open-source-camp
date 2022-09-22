@@ -18,7 +18,7 @@
 == !
 :description: 60 分钟有关开源项目日常软件发布的问题
 :keywords: 日常开发
-:authors: 姜宁， 本文参考了 Producing OpenSource书中的内容
+:authors: 姜宁
 :email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
@@ -183,4 +183,12 @@ $ mvn clean install
 * release manage of large open source software
 * https://www.youtube.com/watch?v=IKsQsxubuAA
 --
+
+== 参考资料
+* https://producingoss.com/[生产开源软件]
+
+== 问题
+* 大家可以现场提问
+* 在演讲之后沟通
+* 给我发送邮件 {email}
 
