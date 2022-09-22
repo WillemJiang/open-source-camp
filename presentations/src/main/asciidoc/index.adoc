@@ -15,7 +15,7 @@
   limitations under the License.
 
 ////
-== 目录
+== 开源训练营（Open Source Camp）
 
 * link:preparation-overview_cn.html[准备开源]
 * link:release_management_cn.html[版本发布]
