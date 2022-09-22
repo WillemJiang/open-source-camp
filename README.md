@@ -2,11 +2,24 @@
 Providing tutorials for the newbie of open source
 
 ## Contents
-* Basic information about How to running the OpenSource
+* Slides of How to [Producing the Open Source Software](https://producingoss.com/)
+* Intresting discussions and Games about how to work in public 
+
+## Technology Used
+
+The slides are generated from [asciidoctor](https://asciidoctor.org) markup and displayed with [reveal.js](https://asciidoctor.org/docs/asciidoctor-revealjs/). This means the content can be kept under version control and exported to a number of formats other than HTML.
+
+Please check out the examples of [asciidoctor-revealjs](https://asciidoctor.org/docs/asciidoctor-revealjs/#syntax-examples) for more information about using markdown with reveal.js.
+
+Thanks to [Apache training project](https://training.apache.org/) provides a very useful content
 
 ## Access the latest conent
 With the help of Github Action and Github pages, we can deploy the latest master content here
 `https://willemjiang.github.io/open-source-camp/index.html`
+
+## How to contribute
+
+Please review the presentations content
 
 ## How to Build
 
