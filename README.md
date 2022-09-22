@@ -19,7 +19,7 @@ With the help of Github Action and Github pages, we can deploy the latest master
 ## How to contribute
 
 * Please review the presentations content and send Pull Request to this repository.
-* Please feel free to fill an issue if you want to add any interesting contents.
+* Please feel free to start a topic in the [Discussions](https://github.com/WillemJiang/open-source-camp/discussions) if you want to add any interesting contents.
 
 ## How to Build
 
