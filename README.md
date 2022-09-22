@@ -14,12 +14,12 @@ Please check out the examples of [asciidoctor-revealjs](https://asciidoctor.org/
 Thanks to [Apache training project](https://training.apache.org/) provides a very useful content
 
 ## Access the latest conent
-With the help of Github Action and Github pages, we can deploy the latest master content here
-`https://willemjiang.github.io/open-source-camp/index.html`
+With the help of Github Action and Github pages, we can deploy the latest master content in [the project github page](https://willemjiang.github.io/open-source-camp/index.html)
 
 ## How to contribute
 
-Please review the presentations content
+* Please review the presentations content and send Pull Request to this repository.
+* Please feel free to fill an issue if you want to add any interesting contents.
 
 ## How to Build
 
