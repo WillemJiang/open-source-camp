@@ -11,7 +11,7 @@ The slides are generated from [asciidoctor](https://asciidoctor.org) markup and 
 
 Please check out the examples of [asciidoctor-revealjs](https://asciidoctor.org/docs/asciidoctor-revealjs/#syntax-examples) for more information about using markdown with reveal.js.
 
-Thanks to [Apache training project](https://training.apache.org/) provides a very useful content
+Thanks to [Apache training project](https://training.apache.org/) provides a very useful content tool. 
 
 ## Access the latest conent
 With the help of Github Action and Github pages, we can deploy the latest master content in [the project github page](https://willemjiang.github.io/open-source-camp/index.html)
