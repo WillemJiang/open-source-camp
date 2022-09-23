@@ -11,7 +11,7 @@
 
 请查看 [asciidoctor-revealjs](https://asciidoctor.org/docs/asciidoctor-revealjs/#syntax-examples) 的示例，了解有关使用 reveal.js 的更多信息。
 
-感谢 [Apache 培训项目](https://training.apache.org/) 提供了非常有价值的内容。
+感谢 [Apache 培训项目](https://training.apache.org/) 提供了非常有价值的内容生产工具。
 
 ## 访问最新内容
 
@@ -36,7 +36,7 @@
 
 只需在浏览器中打开 `index.html` 即可查看幻灯片。
 
-某些功能需要通过 http/https url 查看幻灯片，您可以通过运行以下命令来执行此操作：
+某些功能需要通过浏览器使用 http/https 协议查看幻灯片，您可以通过运行以下命令来执行此操作：
 
 `mvn jetty:run-exploded`
 
@@ -45,7 +45,7 @@
 如何打印pdf：
 请在浏览器中访问“http://127.0.0.1:8080/index_en.html?print-pdf” 并以横向布局打印页面。
 
-一些可以帮助您进行演示的快捷键：
+下面是可以帮助您进行演示的快捷键：
 
 - 光标键和空格键可以浏览幻灯片。
 - 按 S 将在单独的窗口中显示演讲者备注和计时器。
