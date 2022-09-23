@@ -2,8 +2,8 @@
 Providing tutorials for the newbie of open source
 
 ## Contents
-* Slides of How to [Producing the Open Source Software](https://producingoss.com/)
-* Intresting discussions and Games about how to work in public 
+* Slides which are based on How to [Producing the Open Source Software](https://producingoss.com/)
+* Interesting discussions and Games about how to work in public 
 
 ## Technology Used
 
@@ -13,8 +13,8 @@ Please check out the examples of [asciidoctor-revealjs](https://asciidoctor.org/
 
 Thanks to [Apache training project](https://training.apache.org/) provides a very useful content tool. 
 
-## Access the latest conent
-With the help of Github Action and Github pages, we can deploy the latest master content in [the project github page](https://willemjiang.github.io/open-source-camp/index.html)
+## Access the latest content
+With the help of Github Action and Github pages, we keep deploying the latest master content in [the project github page](https://willemjiang.github.io/open-source-camp/index.html)
 
 ## How to contribute
 
@@ -50,7 +50,7 @@ Some key shortcuts that may help you give a presentation:
 - Cursor keys and space can navigate the slides.
 - Press S will show speaker notes and a timer in a separate window.
 - Press F for full screen.
-- Press N for next slide or P for previous slide.
-- Press O (for overview) will show a slide map / overview.
+- Press N for the next slide or P for the previous slide.
+- Press O (for the overview) will show a slide map/overview.
 - Press B will black the screen.
 
