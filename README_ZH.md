@@ -5,52 +5,51 @@
 * 提供了[生产开源软件](https://producingoss.com/)讲义
 * 公共协作相关的讨论以及实践游戏 
 
-## Technology Used
+## 使用技术
 
-The slides are generated from [asciidoctor](https://asciidoctor.org) markup and displayed with [reveal.js](https://asciidoctor.org/docs/asciidoctor-revealjs/). This means the content can be kept under version control and exported to a number of formats other than HTML.
+幻灯片由 [asciidoctor](https://asciidoctor.org) 标记生成，并使用 [reveal.js](https://asciidoctor.org/docs/asciidoctor-revealjs/) 显示。这意味着内容可以使用版本控制，并可以导出 为HTML 等多种格式。
 
-Please check out the examples of [asciidoctor-revealjs](https://asciidoctor.org/docs/asciidoctor-revealjs/#syntax-examples) for more information about using markdown with reveal.js.
+请查看 [asciidoctor-revealjs](https://asciidoctor.org/docs/asciidoctor-revealjs/#syntax-examples) 的示例，了解有关使用 reveal.js 的更多信息。
 
-Thanks to [Apache training project](https://training.apache.org/) provides a very useful content
+感谢 [Apache 培训项目](https://training.apache.org/) 提供了非常有价值的内容。
 
-## Access the latest conent
-With the help of Github Action and Github pages, we can deploy the latest master content in [the project github page](https://willemjiang.github.io/open-source-camp/index.html)
+## 访问最新内容
 
-## How to contribute
+借助Github Action和Github pages，我们可以在【github页面】（https://willemjiang.github.io/open-source-camp/index.html） 中部署最新的master内容。
 
-* Please review the presentations content and send Pull Request to this repository.
-* Please feel free to start a topic in the [Discussions](https://github.com/WillemJiang/open-source-camp/discussions) if you want to add any interesting contents.
+##如何贡献
 
-## How to Build
+* 请查看演示内容并提交PR到此Repo代码库。
+* 如果您想添加任何有趣的内容，请随时在 [讨论](https://github.com/WillemJiang/open-source-camp/discussions) 中发起话题。
 
-Just run the below command if you already setup the JDK and maven:
+## 如何构建
+
+如果您已经设置了 JDK 和 maven，只需运行以下命令：
 
 `mvn clean compile`
 
-## How to View the Slides
+## 如何查看幻灯片
 
-Once built, the generated slides can be found at:
+构建完成后，可以在以下位置找到生成的幻灯片：
 
 `presentations/target/generated-slides/index.html`
 
+只需在浏览器中打开 `index.html` 即可查看幻灯片。
 
-Just open the `index.html`  in a browser to view the slides.
-
-Some features require the slides to be viewed via a http/https url you can do this by running:
+某些功能需要通过 http/https url 查看幻灯片，您可以通过运行以下命令来执行此操作：
 
 `mvn jetty:run-exploded`
 
-And goto `http://127.0.0.1:8080/index_en.html` or `http://127.0.0.1:8080/index_cn.html`in a browser to view.
+并在浏览器中访问`http://127.0.0.1:8080/index_en.html`或`http://127.0.0.1:8080/index_cn.html`查看。
 
-How to print pdf:
-please access "http://127.0.0.1:8080/index_en.html?print-pdf” in a browser and print the page with landscape layout.
+如何打印pdf：
+请在浏览器中访问“http://127.0.0.1:8080/index_en.html?print-pdf” 并以横向布局打印页面。
 
-Some key shortcuts that may help you give a presentation:
+一些可以帮助您进行演示的快捷键：
 
-- Cursor keys and space can navigate the slides.
-- Press S will show speaker notes and a timer in a separate window.
-- Press F for full screen.
-- Press N for next slide or P for previous slide.
-- Press O (for overview) will show a slide map / overview.
-- Press B will black the screen.
-
+- 光标键和空格键可以浏览幻灯片。
+- 按 S 将在单独的窗口中显示演讲者备注和计时器。
+- 按 F 全屏。
+- 按 N 下一张幻灯片或 P 上一张幻灯片。
+- 按 O（查看概览）将显示幻灯片地图/概览。
+- 按 B 将黑屏。
