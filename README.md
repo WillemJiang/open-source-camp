@@ -1,4 +1,4 @@
-# open-source-camp
+# open-source-camp | [中文](README_ZH.md)
 Providing tutorials for the newbie of open source
 
 ## Contents
