@@ -1,4 +1,4 @@
-# 开源训练营 | [English](README_ZH.md)
+# 开源训练营 | [English](README_EN.md)
 为新加入开源的新手提供相关的教程
 
 ## 内容
