@@ -15,7 +15,7 @@
 
 ## 访问最新内容
 
-借助Github Action和Github pages，我们可以在[github页面]（https://willemjiang.github.io/open-source-camp/index.html） 中部署最新的master内容。
+借助Github Action和Github pages，我们可以在[github页面](https://willemjiang.github.io/open-source-camp/index.html)中部署最新的master内容。
 
 ## 如何贡献
 
