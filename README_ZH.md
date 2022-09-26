@@ -1,4 +1,4 @@
-# 开源训练营 | [English](README.md)
+# 开源训练营 | [English](README_ZH.md)
 为新加入开源的新手提供相关的教程
 
 ## 内容
@@ -15,9 +15,9 @@
 
 ## 访问最新内容
 
-借助Github Action和Github pages，我们可以在【github页面】（https://willemjiang.github.io/open-source-camp/index.html） 中部署最新的master内容。
+借助Github Action和Github pages，我们可以在[github页面]（https://willemjiang.github.io/open-source-camp/index.html） 中部署最新的master内容。
 
-##如何贡献
+## 如何贡献
 
 * 请查看演示内容并提交PR到此Repo代码库。
 * 如果您想添加任何有趣的内容，请随时在 [讨论](https://github.com/WillemJiang/open-source-camp/discussions) 中发起话题。
