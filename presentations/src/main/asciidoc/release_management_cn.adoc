@@ -139,7 +139,7 @@ image::OpenSourceCamp.jpeg[]
 [source]
 ----
 $ ./configure
-$ marked
+$ make
 # make install
 ----
 * Java项目，使用maven
