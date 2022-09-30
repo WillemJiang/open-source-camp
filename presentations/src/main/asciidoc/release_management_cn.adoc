@@ -16,14 +16,14 @@
 
 ////
 == !
-:description: 60 分钟有关开源项目日常软件发布的问题
+:description: 45 分钟有关开源项目日常软件发布的问题
 :keywords: 日常开发
 :authors: 姜宁
 :email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
 
-== 开放式协作沟通
+== 版本发布
 {authors}
 
 == 讲师介绍
@@ -117,7 +117,7 @@ image::OpenSourceCamp.jpeg[]
 * 先review在合入 +2 投票
 * 先合入再review -1 投票
 
-=== 版本经理
+=== 版本经理（执行人）
 * 按照发布流程推动版本发布
 ** 确定版本发布时间点
 ** 维护和执行发布脚本
@@ -130,11 +130,12 @@ image::OpenSourceCamp.jpeg[]
 * 格式 Unix tar.gz; Windows zip
 * 文件包含: 
 **  README， COPYING 或者 LICNESE
+**  Apache Notice 文件
 **  CHANGES 或者 NEWS
 **  INSTALL
 
 == 编译和安装
-* 常规的编译操作，让用户可以快速上手
+* 提供文档描述，常规的编译操作
 * C、C++代码
 [source]
 ----
@@ -142,20 +143,23 @@ $ ./configure
 $ make
 # make install
 ----
-* Java项目，使用maven
+* Java项目，使用 maven
 [source]
 ----
 $ mvn clean install
 ----
 
 == 验证版本
+* 发送邮件邀请相关人员试用投票
 * Apache使用GnuPG对发布件进行数字签名
 * 需要引入发布人的Public key进行验证
 * 二进制哈希识别确保文件没有被篡改
 
 [NOTE.speaker]
 --
+* 有关版本验证发布相关的内容可以参考下面的链接
 * https://www.apache.org/dev/release-signing.html
+* https://incubator.apache.org/guides/distribution.html
 --
 
 == 版本发布公告
@@ -173,19 +177,22 @@ $ mvn clean install
 * 控制好各个分支的修改提交粒度
 
 == 规划版本
-* 以志愿者为基础的版本规划时间不好安排
+* 以志愿者贡献为基础的版本规划，发布时间不好安排
 * 一般通过商议的方式确定特性集
-* 平衡开源版本和商用版本发版策略
+* 需要平衡开源版本和商用版本发版策略
 * 提高版本发布频率可以降低版本规划矛盾
 
 [NOTE.speaker]
 --
+* 参考录像
 * release manage of large open source software
 * https://www.youtube.com/watch?v=IKsQsxubuAA
 --
 
 == 参考资料
 * https://producingoss.com/[生产开源软件]
+* https://www.apache.org/legal/release-policy.html[ASF 版本发布规则]
+* https://infra.apache.org/release-publishing.html[ASF 的版本发布流程]
 
 == 问题
 * 大家可以现场提问
