@@ -151,6 +151,8 @@ image::OpenSourceCamp.jpeg[]
 == 参考资料
 * https://producingoss.com/[生产开源软件]
 
-== Questions?
-Ask now, see me after the session,
-or email me at {email}.
+== 问题
+* 大家可以现场提问
+* 在演讲之后沟通
+* 给我发送邮件 {email}
+
