@@ -171,9 +171,10 @@ image::OpenSourceCamp.jpeg[]
 
 [NOTE.speaker]
 --
-* GCC， EGCS的示例， 分久闭合
+* GCC， EGCS的示例， 分久必合
 * 站在社群的角度上思考， 提升项目的竞争力
 * TODO 补充更多的示例
+* Akka修改License之后社群的反馈 https://github.com/mdedetrich/akka-apache-project/discussions/16
 --
 
 === 创建分叉
@@ -184,6 +185,7 @@ image::OpenSourceCamp.jpeg[]
 
 == 参考资料
 * https://producingoss.com/[生产开源软件]
+* https://book.douban.com/subject/25881855/[大教堂与集市]
 
 == 问题
 * 大家可以现场提问
