@@ -21,3 +21,4 @@
 * link:release_management_cn.html[版本发布]
 * link:communication_cn.html[沟通交流]
 * link:governace_cn.html[社群治理]
+* link:license_cn.html[许可证]
