@@ -16,10 +16,9 @@
 
 ////
 == !
-:description: 60 分钟有关如何做开源准备的概述内容
+:description: 45 分钟有关如何做开源准备的概述内容
 :keywords: 开源准备
 :authors: 姜宁
-:email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
 
@@ -246,5 +245,5 @@ TODO 加入一些 License Header 示例的图片
 == 问题
 * 大家可以现场提问
 * 在演讲之后沟通
-* 给我发送邮件 {email}
+* 给我发送邮件 
 

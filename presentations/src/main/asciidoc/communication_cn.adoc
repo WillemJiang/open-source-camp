@@ -16,10 +16,9 @@
 
 ////
 == !
-:description: 60 分钟有关如何进行开放式协作沟通的概述内容
+:description: 45 分钟有关如何进行开放式协作沟通的概述内容
 :keywords: 开放式,协作,沟通
 :authors: 姜宁
-:email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
 
@@ -154,5 +153,5 @@ image::OpenSourceCamp.jpeg[]
 == 问题
 * 大家可以现场提问
 * 在演讲之后沟通
-* 给我发送邮件 {email}
+* 给我发送邮件
 

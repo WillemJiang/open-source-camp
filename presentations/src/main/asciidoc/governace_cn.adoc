@@ -17,10 +17,9 @@
 ////
 
 == !
-:description: 60 分钟如何进行社群治理
+:description: 45 分钟如何进行社群治理
 :keywords: 开放式,协作,沟通
 :authors: 姜宁
-:email: willem.jiang@gmail.com
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
 
@@ -190,4 +189,4 @@ image::OpenSourceCamp.jpeg[]
 == 问题
 * 大家可以现场提问
 * 在演讲之后沟通
-* 给我发送邮件 {email}
+* 给我发送邮件
