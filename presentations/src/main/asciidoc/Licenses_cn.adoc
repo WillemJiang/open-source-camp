@@ -1,0 +1,128 @@
+////
+
+  Copyright 2022 open source camp authors
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 45 分钟介绍有关开源软件许可协议
+:keywords: 
+:authors: 姜宁
+:imagesdir: ../resources/images/
+image::OpenSourceCamp.jpeg[]
+
+== 开源许可协议
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+== 自由软件与开源软件
+* FreeSoftware
+* OpenSourceSoftware
+* FOSS，FLOSS 自由软件与开源软件
+
+
+== License 许可证类型
+* 公共领域
+* 著佐权 CopyLeft
+* 宽松型许可证 
+* 私有/商业/闭源 
+
+== OSI 开源许可定义
+* 自由地分发
+* 提供源代码
+* 允许衍生工作
+* 保证作者代码的完整性
+* 不针对个人和团体进行歧视
+* 不针对应用领域进行歧视
+* 许可协议附属权利的分发
+* 许可证不能针对某个产品
+* 许可协议不能限制其他软件
+* 许可协议必须是技术中立的
+
+[NOTE.speaker]
+--
+* 为什么开源促进会能够定义开源许可证？
+--
+
+== 开源许可证分类
+* Give me credit: MIT， BSD，AL 
+* Give me fix: MPL, EPL
+* Give me everything: GPL, LGPL
+
+== 开源许可证对二次分发的要求
+* TODO
+
+== 许可证的兼容性
+* 与私有许可证的兼容性
+* 与其他类型的开源许可证的兼容性
+* 权予以认可
+* 商标保护
+* 专利回弹
+
+[NOTE.speaker]
+--
+* 这里指的是作为下游使用过程中的兼容性
+* 许可证通过赋予接收者使用和/或重新分发代码的权利而对他们提出的要求
+* 专利回弹是指人们不得利用专利法剥夺许可证根据版权发授予的权利
+* GPL, AL, MPL 要求贡献者连同起贡献一起授予专利许可
+* 如果使用该许可下的软件一方对另一方提起专利诉讼， 声称所涵盖的作品侵权， 诉讼方将自动拾取改许可证原本为该作品授予的所有专利许可。
+* 在使用GPL-3.0许可证的情况下， 诉讼方则完全失去根据该许可证进行分发的权利。
+--
+
+== GPL协议使用的
+
+[NOTE.speaker]
+--
+* TODO 列举需要注意是事项
+--
+
+== LGPL许可协议
+* 比GPL宽松
+* 使用场景说明
+
+== AGPL
+* 远程服务代码的分发
+
+== CLA & DCO
+* 贡献者协议CLA
+** 原创声明 
+** 贡献者授予版权许可
+** 有个人和公司两个版本
+* 开发者原创声明 DCO
+** 原创声明
+** 依赖项目的原生开源许可证
+
+[NOTE.speaker]
+--
+* CLA的接受者可能会保留在将来根据某个不同许可证对项目进行再许可的权利。
+* DCO只保留了一个最小的授权集合，再许可的问题
+--
+
+== 非开源许可证
+* Common Claus
+** Redis lab
+* Server Side Public License
+** MongoDB, Elastic Search
+* Business Source License
+** MariaDB, Couchbase, Sentry
+
+== 私有再许可
+* 一些公司提供了带有私有再许可方案的开源代码
+* 开源版本按照开源条款获得， 而私有版本需要付费获得
+* 通常是GPL或者AGPL
+* 下游用户需要获得例外的许可协议
+** 允许不执行著佐许可证的再分发的承诺
+** 私有版本再许可（Open Core）
