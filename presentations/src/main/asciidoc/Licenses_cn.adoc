@@ -125,4 +125,33 @@ image::OpenSourceCamp.jpeg[]
 * 通常是GPL或者AGPL
 * 下游用户需要获得例外的许可协议
 ** 允许不执行著佐许可证的再分发的承诺
-** 私有版本再许可（Open Core）
+** 私有版本再许可（Open Core情况）
+
+== 商标使用的案例
+* 自由软件的代码可以自由使用，但是商标不行
+* Mozilla 的 Firefox
+* Debian打包不能使用Firefoxshangb 
+* Iceweasel
+
+[NOTE.speaker]
+--
+* TODO License的相关条文 
+* 故事 https://en.wikipedia.org/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project
+--
+
+== 专利问题
+* 软件专利在自由软件中富有争议
+* 专利是针对实施某个特定想法的全面禁令
+* 防御性专利收集，纯粹出于辩护目的收集专利
+* 专利流氓
+* OIN 开放创新网络联盟
+
+[NOTE.speaker]
+--
+* 软件专利:https://en.wikipedia.org/wiki/Software_patent
+* blog @kfogel https://www.rants.org/patent-posts/
+--
+
+
+== 参考资料
+* https://producingoss.com/[生产开源软件]
