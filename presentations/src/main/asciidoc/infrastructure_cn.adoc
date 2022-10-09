@@ -21,3 +21,175 @@
 :authors: 姜宁
 :imagesdir: ../resources/images/
 image::OpenSourceCamp.jpeg[]
+
+== 基础设施
+{authors}
+
+== 讲师介绍
+* TODO 添加讲师相关的内容
+
+== 开源项目需要什么
+* 网站
+* 邮件列表/论坛
+* 版本管理软件
+* Bug追踪
+* 持续集成系统
+* 实时通讯系统
+
+[NOTE.speaker]
+--
+* 一站式代码托管平台提供了绝大部分的功能
+--
+
+== 网站
+* 面向用户，开发者，文档编写人员
+* 提供软件下载和安装使用指导
+* 提供信息门户的作用
+* 内容组织
+** 会采用wiki提供文档合集
+** 采用Markdown方式提供内容
+
+== 一站式的托管网站
+* 版本控制软件 + Bug追踪 + wiki
+* README 提供基础的信息
+* Github Pages 页面展示的功能
+* Github Actions
+
+== 邮件列表/论坛
+* 为大家提供一个虚拟的交流途径
+* 邮件列表的好处
+** 按照主题组织起来的异步交流
+** 有归档检索功能
+** 支持的客户端比较多
+
+=== 项目邮件列表名称
+* users@xxx.org
+* dev@xxx.org
+* security@xxx.org
+* notifications@xxx.org
+* annoucements@xxx.org
+
+
+=== 邮件列表归档展示
+
+[NOTE.speaker]
+--
+* lists.apache.org 功能展示
+--
+
+=== 邮件列表管理
+* 管理员功能
+** 审核邮件
+** 管理邮件列表订阅者
+* 邮件客户端整理
+** 订阅/退订邮件列表
+** 按照邮件标题设置过滤条件
+** 邮件的归档
+
+=== 邮件列表垃圾邮件防护
+* 默认允许来自邮件列表订阅者的邮件
+* 通过垃圾邮件检查过滤邮件
+* 陌生邮件人工审核
+
+=== 邮箱身份信息
+* 方便大家辨识，使用有意义的邮箱用户名
+* 邮箱名最好是用自己的常用id
+* 邮箱别称格式用户姓名中英文
+* 邮箱id可以关联个人头像
+
+[NOTE.speaker]
+--
+* qq邮箱尽量使用有意义的别名
+* 邮箱备注名需要考虑中英文 <王小弟，Xiaodi Wang> xxx@xx.com
+--
+
+=== 邮件头
+* From: ...
+* TO: ...
+* Subject: ...
+* Date: ...
+* CC: ...
+* BCC: ...
+
+=== 邮件标题
+* 需要高度概括邮件中的内容
+* 可以在邮件标题中添加前缀方便过滤器管理
+** Subject: [Github]
+** Subject: [VOTE][RESULT]
+* 回复邮件会自动加上 RE 或者 回复
+* 如果回复的内容主题没有发生改变，不要改变邮件标题
+
+=== 邮件底部
+* 提供归档邮件列表地址
+* 提供退订信息
+
+=== 回复邮件
+* Reply-to: discuss@lists.example.org
+* reply-to-all， reply-to-author
+
+[NOTE.speaker]
+--
+* reply-to-all，会把要回复的邮件作者以及邮件CC的人一同加上， 缺省情况这样回复
+* reply-to-author, 只会发送给回复邮件的作者，适合讨论一些不公开的内容
+--
+
+=== 邮件的归档
+* 提供邮件归档方便大家访问
+* 提供单个邮件或单个主题的特定URL访问
+* 支持按照主题进行阅读
+* 提供检索功能
+
+
+=== 邮件/论坛工具
+* https://groups.google.com/[Google Groups]
+* http://www.list.org/[Mailman]
+* https://discourse.org/[Discouse]
+* https://www.sympa.org[sympa]
+
+
+== 版本管理工具
+* 源代码的保险箱
+* 支持在不同版本的比较
+* 支持多人直接的版本合作
+* 常见的版本管理工具
+** git
+** subversion
+
+== 使用版本控制
+[NOTE.speaker]
+--
+* TODO 版本控制的常规操作流程
+--
+
+== Bug 跟踪
+* 提供了问题全生命周期的跟踪系统
+* 不仅限于跟踪Bug
+** 用户发起的问题，相关人员回复
+** Bug修复与跟踪
+** 新的功能需要的讨论
+** 任务跟踪 
+
+=== Bug 跟踪和邮件讨论
+* 就问题的讨论的而言邮件可以涵盖更广泛的内容
+* Bug跟踪会更加聚焦一些
+* Bug跟踪有具体的生命周期跟踪，open, resolved, closed
+* Bug跟踪可以和软件版本关联起来
+* 两者的可以通过URL进行关联
+
+=== 将信息关联起来
+* 开发活动相关的信息提供了完整的
+* Github issue 关联
+* 提交记录和 JIRA number的管理
+
+== 实时聊天系统
+* IRC
+* Slack
+[NOTE.speaker]
+--
+* TODO 常规操作流程
+--
+
+== 问答论坛
+* Stack Overflow
+
+
