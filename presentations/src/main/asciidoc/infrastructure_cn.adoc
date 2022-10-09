@@ -15,11 +15,9 @@
   limitations under the License.
 
 ////
-== 开源训练营
-
-* link:preparation-overview_cn.html[准备开源]
-* link:infrastructure_cn.html[基础设施]
-* link:release_management_cn.html[版本发布]
-* link:communication_cn.html[沟通交流]
-* link:governace_cn.html[社群治理]
-* link:Licenses_cn.html[许可证]
+== !
+:description: 45 分钟介绍开源项目相关的基础设施
+:keywords: 基础设施
+:authors: 姜宁
+:imagesdir: ../resources/images/
+image::OpenSourceCamp.jpeg[]
