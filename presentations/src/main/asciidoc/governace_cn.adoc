@@ -29,13 +29,84 @@ image::OpenSourceCamp.jpeg[]
 == 讲师介绍
 * TODO 添加讲师相关的内容
 
+== 开源社群的运作方式
+* 开源项目是如何运作的？
+* 如何保持项目可持续发展？
+* 项目健康运行的指标是什么？
 
-== 社群与动机
+=== 开源项目不同发展阶段采用的策略
+* 从一个小的想法开始亲力亲为
+* 吸引用户构建社群创造价值
+* 仁慈的独裁者（BD）阶段
+* 基于共识的民主决策
+
+[NOTE.speaker]
+--
+* 仁慈的独裁者 Benevolent Dictator
+--
+
+=== 仁慈的独裁者
+* 依靠人格和经验的力量行使最终决策权
+* 社群认可的仲裁者，通常是项目的创建者
+* 长期积累的技术领导力
+* 有一定的自我约束力
+* 尊重其他专业知识领域的维护着
+* Fork所带来的制衡
+
+=== 共识民主决策
+* BD的退隐建立起来的更开放的民主制度
+* 需要建立起一套正式的基于团队的制度
+* 在基金会孵化过程中一直强调的
+* 以技术为主题的讨论
+* 很多时候是以隐式方式达成共识
+* 达不成共识时，投票解决
+
+[NOTE.speaker]
+--
+* 隐式共识就是没有反对意见就可以推动
+* 使用版本控制软件可以比较容易地进行回退
+* Apache Consensus Build https://community.apache.org/committers/consensusBuilding.html
+--
+
+=== 投票表决的艺术
+* 谁来参与投票
+**  PMC的作用
+**  投票者并非只是编码人员
+* 投票之前的讨论 -- 达成共识的基础
+* 投票的内容
+** 推举新的维护人员
+** 重大决策与民意调查
+
+
+=== 社群治理指南
+* 行为准则规范
+* 社群的运作指南
+* 开发者指南的-快速入门
+* 社群治理的FAQ
+
+[NOTE.speaker]
+--
+* Subvresion 社区治理指南 https://subversion.apache.org/docs/community-guide/
+* Apahce软件基金会 https://www.apache.org/foundation/how-it-works.html
+--
+
+=== 加入/创建非营利组织
+* 接受赞助的实体
+* 为项目利益购买或者维护基础设施
+* 组织会议
+* 执行和保护商标
+[NOTE.speaker]
+--
+* TODO 需要进一步完善
+--
+
+
+== 参与开源的动机
 * 大家为什么要参与开源项目？
 ** 解决自己的痛点问题
 ** 有很强的内在的动机
 ** 开发好用的软件
-** 通过合作赢得尊重
+** 通过合作共建赢得尊重
 
 [NOTE.speaker]
 --
@@ -70,7 +141,7 @@ image::OpenSourceCamp.jpeg[]
 * 需要避免参与者独占项目的某一领域
 * 破坏了项目的合作、平等的精神
 
-=== 自动化
+=== 提升自动化的好处
 * 提升效率的手段
 * 避免人们在手动执行过程中的错误
 * 让开发者实时获得反馈，降低试错成本
@@ -148,7 +219,6 @@ image::OpenSourceCamp.jpeg[]
 * https://subversion.apache.org/docs/community-guide/conventions.html#crediting
 * Subversion 通过“Contribulyzer”工具提升了项目寻找和鼓励长期参与者的能力
 --
-
 
 == 分叉（fork)
 * 项目的一个副本与另外一个副本产生分歧
