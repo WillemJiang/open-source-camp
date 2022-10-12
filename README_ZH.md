@@ -26,7 +26,7 @@
 
 如果您已经设置了 JDK 和 maven，只需运行以下命令：
 
-`mvn clean compile`
+`mvn clean install`
 
 ## 如何查看幻灯片
 
