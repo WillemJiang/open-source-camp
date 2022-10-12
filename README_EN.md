@@ -25,7 +25,7 @@ With the help of Github Action and Github pages, we keep deploying the latest ma
 
 Just run the below command if you already setup the JDK and maven:
 
-`mvn clean compile`
+`mvn clean install`
 
 ## How to View the Slides
 
