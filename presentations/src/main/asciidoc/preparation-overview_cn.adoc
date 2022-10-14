@@ -25,20 +25,17 @@ image::OpenSourceCamp.jpeg[]
 == 开源准备快速入门
 {authors}
 
-== 讲师介绍
-* TODO 添加讲师相关的内容
-
 
 == 启动一个开源项目
 * 将个人的愿景转化成为公共的愿景
-* 明确项目的边界
+* 明确项目的定位边界
 * 将项目打包展示给公众
 * 为新参与的成员提供所需要一切资料和帮助
 
 [NOTE.speaker]
 --
 * 也许你的组织很清楚相关的愿景， 但是将这些目标清楚地传递给大家是需要花费一些功夫的
-* 明确项目的边界， 输出项目的使命声明， 
+* 明确项目的定位与边界，确定项目在开源生态的定位，输出项目的使命声明， 
 * 需要把项目展示给大家， 降低新手的参与成本，让新手能够自服务
 --
 
@@ -64,7 +61,7 @@ image::OpenSourceCamp.jpeg[]
 
 [NOTE.speaker]
 --
-* 使命声明让大家在30秒钟了解项目概况
+* 项目的使命声明需要精心雕琢，确保让大家在30秒钟只能了解项目概况
 --
 
 === 项目使命声明示例
@@ -110,28 +107,29 @@ The Apache Hadoop software library is a framework that allows for the distribute
 
 [NOTE.speaker]
 --
-降低贡献者参与的难度，一开始就需要挺软件的构建和测试方法
+降低贡献者参与的难度，一开始就需要提供软件的构建和测试方法
 --
 
 === 版本控制
 * 使用Git来追踪项目的代码提交记录
 * 有多个代码托管平台可以选择
-** Github
-** Gitee
-** GitBucket
+** [Github]#https://github.com#
+** [Gitee](https://gitee.com)
+** [BitBucket](https://bitbucket.org/)
+
 
 === 问题追踪系统
 * Bug追踪
 * 代码功能增强请求
 * 文档变更
 * 待处理的任务
-* Github issues vs JIRA
+* [Github issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) vs [JIRA](https://www.atlassian.com/software/jira)
 
 === 项目沟通渠道
 * 邮件列表
-* 聊天室 Slack
-* IRC频道
-* 建议把开发者和用户讨论分开
+* 聊天室 [Slack](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide)
+* [IRC频道](https://en.wikipedia.org/wiki/Internet_Relay_Chat) 
+* 建议把开发者和用户讨论区分分开
 
 === 开发者指南
 * 软件开发环境设置，如何进行编译测试
@@ -189,23 +187,24 @@ https://readthedocs.org/
 
 == 选择许可证
 * 常见软件许可
-** Give me everything 
-** Give me fix
-** Give me credit
+** Give me everything: [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html), [LGPL](https://www.gnu.org/licenses/lgpl-3.0.en.html)
+** Give me fix: [MPL](https://www.mozilla.org/en-US/MPL/), [EPL](https://www.eclipse.org/legal/epl-2.0/)
+** Give me credit: [AL](https://www.apache.org/licenses/LICENSE-2.0), [MIT](https://opensource.org/licenses/MIT), [BSD](https://en.wikipedia.org/wiki/BSD_licenses)
 
 [NOTE.speaker]
 --
-万能许可证 MIT， 提供免责声明，只保留署名权
+* 万能许可证 MIT， 提供免责声明，只保留署名权
+* 常用的 [BSD 3条款协议](https://opensource.org/licenses/BSD-3-Clause) 
 --
 
 === 应用许可证
-* 在代码根目录下提供 LICNESE 或者 COPYING 文件
+* 在代码根目录下提供 LICENSE 或者 COPYING 文件
 * 源文件头加入 License header
 ** 包含版权日期，所有者以及许可证信息
 
 [NOTE.speaker]
 --
-TODO 加入一些 License Header 示例的图片
+TODO 可以加入一些 License Header 示例的图片
 --
 
 == 制定规则
@@ -220,7 +219,7 @@ TODO 加入一些 License Header 示例的图片
 * 公开的讨论将有助于培训和教育新加入的开发者
 * 这样的讨论可以锻炼你想不熟悉软件的人解释技术问题的能力
 * 讨论记录将会保存在公共的邮件归档并提供检索
-* 常见的coc https://www.contributor-covenant.org/
+* 常见的 COC https://www.contributor-covenant.org/
 * 代码检视：交流工作内容， 了解相关代码库的变更， 减少低级代码错误
 * 邮件列表diff评论 或者 github PR review
 --
