@@ -113,9 +113,9 @@ The Apache Hadoop software library is a framework that allows for the distribute
 === 版本控制
 * 使用Git来追踪项目的代码提交记录
 * 有多个代码托管平台可以选择
-** [Github]#https://github.com#
-** [Gitee]#https://gitee.com#
-** [BitBucket]#https://bitbucket.org/#
+** https://github.com[Github]
+** https://gitee.com[Gitee]
+** https://bitbucket.org/[BitBucket]
 
 
 === 问题追踪系统
@@ -123,12 +123,12 @@ The Apache Hadoop software library is a framework that allows for the distribute
 * 代码功能增强请求
 * 文档变更
 * 待处理的任务
-* [Github issues]#https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues# vs [JIRA]#https://www.atlassian.com/software/jira#
+* https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues[Github issues] vs https://www.atlassian.com/software/jira[JIRA]
 
 === 项目沟通渠道
 * 邮件列表
-* 聊天室 [Slack]#https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide#
-* [IRC频道]#https://en.wikipedia.org/wiki/Internet_Relay_Chat# 
+* 聊天室 https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide[Slack]
+* https://en.wikipedia.org/wiki/Internet_Relay_Chat[IRC频道]
 * 建议把开发者和用户讨论区分分开
 
 === 开发者指南
@@ -167,8 +167,8 @@ The Apache Hadoop software library is a framework that allows for the distribute
 
 [NOTE.speaker]
 --
-目前可以使用的工具 wiki
-https://readthedocs.org/
+* 目前可以使用的工具 wiki
+* https://readthedocs.org/
 --
 
 === Demo,视频,样例
@@ -187,14 +187,14 @@ https://readthedocs.org/
 
 == 选择许可证
 * 常见软件许可
-** Give me everything: [GPL]#https://www.gnu.org/licenses/gpl-3.0.en.html#, [LGPL]#https://www.gnu.org/licenses/lgpl-3.0.en.html#
-** Give me fix: [MPL]#https://www.mozilla.org/en-US/MPL/#, [EPL]#https://www.eclipse.org/legal/epl-2.0/#
-** Give me credit: [AL]#https://www.apache.org/licenses/LICENSE-2.0#, [MIT]#https://opensource.org/licenses/MIT#, [BSD]#https://en.wikipedia.org/wiki/BSD_licenses#
+** Give me everything: https://www.gnu.org/licenses/gpl-3.0.en.html[GPL], https://www.gnu.org/licenses/lgpl-3.0.en.html[LGPL]
+** Give me fix: https://www.mozilla.org/en-US/MPL/[MPL], https://www.eclipse.org/legal/epl-2.0/[EPL]
+** Give me credit: https://www.apache.org/licenses/LICENSE-2.0[AL], https://opensource.org/licenses/MIT[MIT], https://en.wikipedia.org/wiki/BSD_licenses[BSD]
 
 [NOTE.speaker]
 --
 * 万能许可证 MIT， 提供免责声明，只保留署名权
-* 常用的 [BSD 3条款协议]#https://opensource.org/licenses/BSD-3-Clause# 
+* 常用的 https://opensource.org/licenses/BSD-3-Clause[BSD 3条款协议]
 --
 
 === 应用许可证
@@ -204,7 +204,7 @@ https://readthedocs.org/
 
 [NOTE.speaker]
 --
-TODO 可以加入一些 License Header 示例的图片
+* TODO 可以加入一些 License Header 示例的图片
 --
 
 == 制定规则
@@ -219,7 +219,7 @@ TODO 可以加入一些 License Header 示例的图片
 * 公开的讨论将有助于培训和教育新加入的开发者
 * 这样的讨论可以锻炼你想不熟悉软件的人解释技术问题的能力
 * 讨论记录将会保存在公共的邮件归档并提供检索
-* 常见的 [code of conduct 模版](https://www.contributor-covenant.org/)
+* 常见的 https://www.contributor-covenant.org/[code of conduct 模版]
 * 代码检视：交流工作内容， 了解相关代码库的变更， 减少低级代码错误
 * 邮件列表diff评论 或者 github PR review
 --
