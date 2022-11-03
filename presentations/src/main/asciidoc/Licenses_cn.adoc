@@ -75,7 +75,7 @@ image::OpenSourceCamp.jpeg[]
 [NOTE.speaker]
 --
 * 这里指的是作为下游使用过程中的兼容性
-* Apache软件基金会列举了与[Apache License协议分发兼容第三方依赖包协议](https://www.apache.org/legal/resolved.html)
+* Apache软件基金会列举了与https://www.apache.org/legal/resolved.html[Apache License协议分发兼容第三方依赖包协议]
 * 许可证通过赋予接收者使用和/或重新分发代码的权利而对他们提出的要求
 * 专利回弹是指人们不得利用专利法剥夺许可证根据版权发授予的权利
 * GPL, AL, MPL 要求贡献者连同起贡献一起授予专利许可
@@ -83,16 +83,19 @@ image::OpenSourceCamp.jpeg[]
 * 在使用GPL-3.0许可证的情况下， 诉讼方则完全失去根据该许可证进行分发的权利。
 --
 
-== 使用GPL协议软件用户代码需要开源场景
-
+== 使用GPL许可协议软件用户代码需要开源场景
+* 核心是用户程序是否与GPL软件的分发方式在同一进程运行并一同发布
+* https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]列举了很多场景
 [NOTE.speaker]
 --
-* 国内案例： [要不是GPL，索赔2千万就要成功了！](https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew) 
+* 国内案例： https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
 --
 
-== LGPL许可协议
-* 比GPL宽松，主要适用于[GlibC库](https://en.wikipedia.org/wiki/Glibc)
-* 当用户采用静态链接库的方式链接时，用户的代码不用开源
+== 使用LGPL许可协议软件用户代码需要开源的场景
+* 比GPL宽松，主要适用于https://en.wikipedia.org/wiki/Glibc[GlibC库]
+* 当用户采用静态链接库的方式使用LGPL软件，用户的代码不用开源
+* 如果修改了LGPL软件的代码，修改部分需要开源
+* 当LGPL软件调用用户代码时，用户代码不需要开源 
 
 == AGPL
 * 远程服务代码的分发需要开源
@@ -156,3 +159,4 @@ image::OpenSourceCamp.jpeg[]
 
 == 参考资料
 * https://producingoss.com/[生产开源软件]
+* https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]
