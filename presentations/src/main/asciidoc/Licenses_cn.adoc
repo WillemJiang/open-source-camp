@@ -62,13 +62,16 @@ image::OpenSourceCamp.jpeg[]
 * Give me fix: MPL, EPL
 * Give me everything: GPL, LGPL
 
-== 开源许可证对二次分发的要求
-* TODO
+== 开源许可证对二次分发的义务要求
+* 绝大部分开源软件许可证义务是在分发阶段触发
+* AL 分发包含软件声明
+* MPL/EPL 要求如果修改了软件代码， 需要提供修改后的代码 
+* GPL 要求提供分发二进制文件相关的源代码
 
 == 许可证的兼容性
 * 与私有许可证的兼容性
 * 与其他类型的开源许可证的兼容性
-* 权予以认可
+* 权力予以认可
 * 商标保护
 * 专利回弹
 
@@ -83,21 +86,25 @@ image::OpenSourceCamp.jpeg[]
 * 在使用GPL-3.0许可证的情况下， 诉讼方则完全失去根据该许可证进行分发的权利。
 --
 
-== 使用GPL许可协议软件用户代码需要开源场景
-* 核心是用户程序是否与GPL软件的分发方式在同一进程运行并一同发布
-* https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]列举了很多场景
+== GPL软件用户代码需要开源场景
+* 核心是用户程序是否与GPL软件在同一进程运行并一同发布
+* GPLv2 + Classpath Exception 
+** 提供了一个例外情况避免 Java 字节码，Python，JavaScript代码受到GPL的影响
+
 [NOTE.speaker]
 --
-* 国内案例： https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
+* 国内案例: https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
+* https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]列举了很多场景
+* https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice [GPLv2 + Classpath Exception]
 --
 
-== 使用LGPL许可协议软件用户代码需要开源的场景
-* 比GPL宽松，主要适用于https://en.wikipedia.org/wiki/Glibc[GlibC库]
+== LGPL软件用户代码需要开源的场景
+* 比GPL宽松，主要适用于 https://en.wikipedia.org/wiki/Glibc[GlibC库]
 * 当用户采用静态链接库的方式使用LGPL软件，用户的代码不用开源
 * 如果修改了LGPL软件的代码，修改部分需要开源
 * 当LGPL软件调用用户代码时，用户代码不需要开源 
 
-== AGPL
+== AGPL软件用户代码需要开源的场景
 * 远程服务代码的分发需要开源
 
 == CLA & DCO
