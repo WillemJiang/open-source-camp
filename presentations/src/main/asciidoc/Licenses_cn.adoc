@@ -75,6 +75,7 @@ image::OpenSourceCamp.jpeg[]
 [NOTE.speaker]
 --
 * 这里指的是作为下游使用过程中的兼容性
+* Apache软件基金会列举了与[Apache License协议分发兼容第三方依赖包协议](https://www.apache.org/legal/resolved.html)
 * 许可证通过赋予接收者使用和/或重新分发代码的权利而对他们提出的要求
 * 专利回弹是指人们不得利用专利法剥夺许可证根据版权发授予的权利
 * GPL, AL, MPL 要求贡献者连同起贡献一起授予专利许可
@@ -82,19 +83,19 @@ image::OpenSourceCamp.jpeg[]
 * 在使用GPL-3.0许可证的情况下， 诉讼方则完全失去根据该许可证进行分发的权利。
 --
 
-== GPL协议使用的
+== 使用GPL协议软件用户代码需要开源场景
 
 [NOTE.speaker]
 --
-* TODO 列举需要注意是事项
+* 国内案例： [要不是GPL，索赔2千万就要成功了！](https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew) 
 --
 
 == LGPL许可协议
-* 比GPL宽松
-* 使用场景说明
+* 比GPL宽松，主要适用于[GlibC库](https://en.wikipedia.org/wiki/Glibc)
+* 当用户采用静态链接库的方式链接时，用户的代码不用开源
 
 == AGPL
-* 远程服务代码的分发
+* 远程服务代码的分发需要开源
 
 == CLA & DCO
 * 贡献者协议CLA
