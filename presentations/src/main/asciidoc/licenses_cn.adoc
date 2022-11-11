@@ -72,7 +72,7 @@ image::OpenSourceCamp.jpeg[]
 [NOTE.speaker]
 --
 * 这里指的是作为下游使用过程中的兼容性
-* Apache软件基金会列举了与https://www.apache.org/legal/resolved.html[Apache License协议分发兼容第三方依赖包协议]
+* Apache软件基金会列举了与 https://www.apache.org/legal/resolved.html [Apache License协议分发兼容第三方依赖包协议]
 * 许可证通过赋予接收者使用和/或重新分发代码的权利而对他们提出的要求
 * 专利回弹是指人们不得利用专利法剥夺许可证根据版权发授予的权利
 * GPL, AL, MPL 要求贡献者连同起贡献一起授予专利许可
@@ -108,8 +108,9 @@ image::OpenSourceCamp.jpeg[]
 
 [NOTE.speaker]
 --
-* 国内案例: https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
-* https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]列举了很多场景
+* 国内案例: https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew [要不是GPL，索赔2千万就要成功了！]
+* 相关的审判文书 https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ
+* https://www.gnu.org/licenses/gpl-faq.zh-cn.html [GNU许可证常见问题]列举了很多场景
 * https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice [GPLv2 + Classpath Exception]
 --
 
