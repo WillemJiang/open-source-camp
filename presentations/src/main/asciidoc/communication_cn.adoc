@@ -84,7 +84,6 @@ image::OpenSourceCamp.jpeg[]
 * 花点时间检查你的发送的内容，你的邮件在结构上越精炼，别人就越有可能读到它们。 
 --
 
-
 === 语气
 * 在撰写了几千封邮件之后， 邮件风格会趋向简洁
 * 重点在于表述问题，没有问候，没有签名。
@@ -117,7 +116,14 @@ image::OpenSourceCamp.jpeg[]
 * 使用个人邮箱参与开源项目
 --
 
-== 撰写邮件常见问题
+== 常规的邮件讨论
+* 需要习惯公开的邮件讨论
+* 注意交流的语气
+* 学会使用邮件列表
+** 订阅邮件列表
+** 在邮箱中管理订阅的邮件
+
+=== 撰写邮件常见问题
 * 发邮件的目的性不明
 * 邮件线索(Thread) 不清晰
 * 邮件话题之争
@@ -127,22 +133,6 @@ image::OpenSourceCamp.jpeg[]
 [NOTE.speaker]
 --
 * TODO 按照示例进行展开
---
-
-== 常规的邮件讨论
-
-=== 使用邮件列表
-* 通过邮件列表存档查询历史邮件
-* 订阅邮件列表获取信息
-* 邮件列表也有审核
-* 常规的邮件列表 dev@, users@
-
-[NOTE.speaker]
---
-* 可以通过 lists.apache.org 访问邮件内容
-* Apache项目 Community 一栏都会有邮件列表信息
-* 使用Gmail回复会保留邮件列表信息
-* 可以通过groups.google.com 创建邮件列表 
 --
 
 === 电子邮件格式约定
@@ -160,7 +150,32 @@ image::OpenSourceCamp.jpeg[]
 * 如果主题偏离，需要修改邮件标题
 --
 
-== Github issue讨论
+=== 使用邮件列表
+* 通过邮件列表存档查询历史邮件
+* 订阅邮件列表获取信息
+* 邮件列表也有审核
+* 常规的邮件列表 dev@, users@
+
+[NOTE.speaker]
+--
+* 可以通过 lists.apache.org 访问邮件内容
+* Apache项目 Community 一栏都会有邮件列表信息
+* 使用Gmail回复会保留邮件列表信息
+* 可以通过groups.google.com 创建邮件列表 
+--
+
+
+== Github issue
+* 轻量化的https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart[开发上下文追踪场景]
+** 追踪想法
+** 获取反馈
+** https://docs.github.com/en/issues/tracking-your-work-with-issues/about-tasklists#creating-tasklists[任务列表]
+** 追踪问题
+
+=== Github issue 高级功能
+* https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github[Github支持书写模式]
+* Github提供了https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests[issue和PR的自动链接]
+* 使用emoji来表达态度
 
 == PR review
 
