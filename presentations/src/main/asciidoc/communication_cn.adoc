@@ -166,15 +166,15 @@ image::OpenSourceCamp.jpeg[]
 
 
 == Github issue
-* 轻量化的https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart[开发上下文追踪场景]
-** 追踪想法
+* 轻量化的 https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart[开发上下文追踪场景]
+** 跟踪想法
 ** 获取反馈
 ** https://docs.github.com/en/issues/tracking-your-work-with-issues/about-tasklists#creating-tasklists[任务列表]
 ** 追踪问题
 
 === Github issue 高级功能
 * https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github[Github支持书写模式]
-* Github提供了https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests[issue和PR的自动链接]
+* Github提供了 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests[issue和PR的自动链接]
 * 使用emoji来表达态度
 
 == PR review
