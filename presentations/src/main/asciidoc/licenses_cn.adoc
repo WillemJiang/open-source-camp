@@ -97,31 +97,37 @@ image::OpenSourceCamp.jpeg[]
 == 开源许可证对二次分发的义务要求
 * 绝大部分开源软件许可证义务是在分发阶段触发
 * AL 分发包含软件声明
-* MPL/EPL 要求如果修改了软件代码， 需要提供修改后的代码 
+* MPL/EPL 要求如果修改了软件代码，需要提供修改后的代码 
 * GPL 要求提供分发二进制文件相关的源代码
 
 
 == GPL软件用户代码需要开源场景
-* 核心是用户程序是否与GPL软件在同一进程运行并一同发布
-* GPLv2 + Classpath Exception 
-** 提供了一个例外情况避免 Java 字节码，Python，JavaScript代码受到GPL的影响
-
-[NOTE.speaker]
---
-* 国内案例: https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
-* 相关的审判文书 https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ
 * https://www.gnu.org/licenses/gpl-faq.zh-cn.html[GNU许可证常见问题]列举了很多场景
-* https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice[GPLv2 + Classpath Exception]
---
+* 核心是用户程序是否与GPL软件在同一进程运行并一同发布
+** 软件可执行代码受GPL的影响
+** 可执行程序装配会涉及多种场景 
+* https://softwareengineering.stackexchange.com/questions/119436/what-does-gpl-with-classpath-exception-mean-in-practice[GPLv2 + Classpath Exception] 
+** 提供了一个例外情况避免 Java 字节码,Python,JavaScript代码受到GPL的影响
 
 == LGPL软件用户代码需要开源的场景
-* 比GPL宽松，主要适用于 https://en.wikipedia.org/wiki/Glibc[GlibC库]
-* 当用户采用静态链接库的方式使用LGPL软件，用户的代码不用开源
-* 如果修改了LGPL软件的代码，修改部分需要开源
-* 当LGPL软件调用用户代码时，用户代码不需要开源 
+* 比GPL宽松,主要适用于 https://en.wikipedia.org/wiki/Glibc[GlibC库]
+* 当用户采用静态链接库的方式使用LGPL软件,用户代码不用开源
+* 如果修改了LGPL软件的代码,修改部分需要开源
+* 当LGPL软件调用用户代码时,用户代码不需要开源 
 
-== AGPL软件用户代码需要开源的场景
-* 远程服务代码的分发需要开源
+== AGPL 软件用户代码需要开源的场景
+* https://www.gnu.org/licenses/why-affero-gpl.zh-cn.html[解决GPL代码通过网络服务器向用户服务开源相关的问题]
+** 使用AGPL的远程服务代码虽然没有分发但是需要开源
+** AGPL 并没有解决云服务厂商服务开源的问题
+** https://posts.careerengine.us/p/5bf7b7e0c249e96c98bb7c5c[Neo4j 企业版转向 AGPLv3 + Commons Clause] 
+
+
+== 国内GPL相关的案例
+* https://mp.weixin.qq.com/s/pY4IT3Ixs8IyGz1urUTkLg[罗盒案例]，涉及GPL侵权诉讼主体，相关知识产权保护
+* https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
+** GPL 成为抗诉的关键
+** 相关的审判文书 https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ
+
 
 == CLA & DCO
 * 贡献者协议CLA
