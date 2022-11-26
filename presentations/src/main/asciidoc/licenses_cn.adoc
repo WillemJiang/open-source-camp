@@ -31,7 +31,7 @@ image::OpenSourceCamp.jpeg[]
 == 自由软件与开源软件
 * FreeSoftware
 * OpenSourceSoftware
-* FOSS，FLOSS 自由软件与开源软件
+* FOSS,FLOSS 自由软件与开源软件
 
 
 == License 许可证类型
@@ -58,7 +58,7 @@ image::OpenSourceCamp.jpeg[]
 --
 
 == 开源许可证分类
-* Give me credit: MIT， BSD，AL 
+* Give me credit: MIT, BSD,AL 
 * Give me fix: MPL, EPL
 * Give me everything: GPL, LGPL
 
@@ -86,11 +86,11 @@ image::OpenSourceCamp.jpeg[]
 ** 通过Binding形式来生成开源许可证
 * 开源代码编译成二进制包许可证
 ** 需要考虑打包的软件发组合方式，静态或者动态链接
-** 对于Java，Python，JavaScript 的打包方式有不同的理解
+** 对于Java,Python,JavaScript 的打包方式有不同的理解
 ** GPL的软件在二进制发布的特殊要求
 [NOTE.speaker]
 --
-* GPL的传染性不是体现在源代码包， 而是体现在二进制代码包
+* GPL的传染性不是体现在源代码包, 而是体现在二进制代码包
 * 讨论： Bepf对 内核GPL的传染性的影响
 --
 
@@ -126,7 +126,7 @@ image::OpenSourceCamp.jpeg[]
 * https://mp.weixin.qq.com/s/pY4IT3Ixs8IyGz1urUTkLg[罗盒案例]，涉及GPL侵权诉讼主体，相关知识产权保护
 * https://mp.weixin.qq.com/s/mpO59BVIubgBTkaVfh2aew[要不是GPL，索赔2千万就要成功了！]
 ** GPL 成为抗诉的关键
-** 相关的审判文书 https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ
+** https://mp.weixin.qq.com/s/GiMWAdzbqg83OUlwdAQPrQ[相关的审判文书]
 
 
 == CLA & DCO
@@ -144,13 +144,13 @@ image::OpenSourceCamp.jpeg[]
 * DCO只保留了一个最小的授权集合，再许可的问题
 --
 
-== 非开源许可证
-* Common Claus
-** Redis lab
-* Server Side Public License
-** MongoDB, Elastic Search
-* Business Source License
-** MariaDB, Couchbase, Sentry
+== 源代码开放的非开源许可证
+* https://commonsclause.com/[Common Clause]
+** https://redis.com/legal/licenses/[Redis lab] https://www.zdnet.com/article/redis-labs-drops-commons-clause-for-a-new-license/[曾经使用]
+* https://en.wikipedia.org/wiki/Server_Side_Public_License[Server Side Public License]
+** https://www.mongodb.com/licensing/server-side-public-license[MongoDB], https://www.elastic.co/cn/blog/elastic-license-v2[Elastic Search]
+* https://blog.adamretter.org.uk/business-source-license-adoption/[Business Source License]
+** https://mariadb.com/bsl11/[MariaDB], https://www.cockroachlabs.com/docs/stable/licensing-faqs.html[Couchbase], Sentry
 
 == 私有再许可
 * 一些公司提供了带有私有再许可方案的开源代码
