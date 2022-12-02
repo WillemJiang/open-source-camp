@@ -6,12 +6,15 @@ labels: InnerSource Patterns翻译
 assignees: ''
 
 ---
+## 任务必读
+- [翻译任务汇总](https://github.com/WillemJiang/open-source-camp/issues/16)
+- [Markdown 格式语法](https://docs.github.com/cn/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ## 文档信息
 
 * **原文标题：** The_original_title_of_the_documentation
 * **原文链接：** The_original_link_of_the_documentation
-* **提交路径：** translation/cn/xxx
+* **工作路径：** translation/cn/xxx
 * **翻译收益：**
 * **翻译难度：**
 
