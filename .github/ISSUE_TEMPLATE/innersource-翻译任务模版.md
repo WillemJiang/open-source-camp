@@ -1,11 +1,12 @@
 ---
 name: InnerSource 翻译任务模版
 about: 用来提供InnerSource翻译任务指导
-title: ''
+title: 翻译模式
 labels: InnerSource Patterns翻译
 assignees: ''
 
 ---
+
 ## 任务必读
 - [翻译任务汇总](https://github.com/WillemJiang/open-source-camp/issues/16)
 - [Markdown 格式语法](https://docs.github.com/cn/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
