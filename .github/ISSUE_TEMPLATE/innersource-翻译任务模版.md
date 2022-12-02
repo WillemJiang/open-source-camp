@@ -13,8 +13,8 @@ assignees: ''
 ## 文档信息
 
 * **原文标题：** The_original_title_of_the_documentation
-* **原文链接：** https://github.com/WillemJiang/InnerSourcePatterns/blob/translation-cn/
-* **工作路径：** https://github.com/WillemJiang/InnerSourcePatterns/blob/translation-cn/translation/cn/patterns
+* **原文链接：** https://github.com/WillemJiang/InnerSourcePatterns/blob/translation-cn/patterns/2-structured/
+* **工作路径：** https://github.com/WillemJiang/InnerSourcePatterns/blob/translation-cn/translation/cn/patterns/
 * **翻译收益：**
 * **翻译难度：**
 
