@@ -25,10 +25,18 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
   
-    <name>OpenSource Way training</name>
+    <name>OpenSource Camp training</name>
     <description>This training is for the developer who just get touch with Open Source</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
+    </properties>
 
     <modules>
       <module>presentations</module>
+      <module>documentations</module>
     </modules>
 </project>

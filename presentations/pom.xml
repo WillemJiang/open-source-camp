@@ -31,7 +31,7 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>OpenSource Way training presentations</name>
+    <name>OpenSource Camp training presentations</name>
     <description>The presentation module</description>
 
     <properties>
