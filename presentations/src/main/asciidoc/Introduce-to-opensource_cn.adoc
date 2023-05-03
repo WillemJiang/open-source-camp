@@ -1,0 +1,155 @@
+////
+
+  Copyright 2023 open source camp authors
+
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  #the "License"#; you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+////
+== !
+:description: 45 分钟有关开源介绍概述内容
+:keywords: 开源准备
+:authors: 姜宁
+:imagesdir: ../resources/images/
+image::OpenSourceCamp.jpeg[]
+
+
+== 开源介绍概述
+{authors}
+
+=== 开源软件（OSS）是什么
+
+**Open source software (OSS)** is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open source software may be developed in a collaborative public manner.
+
+[NOTE.speaker]
+--
+* Wikipedia的介绍，可以从软件， 源代码， 许可证，以及 研究，修改，分发，还有从公众协同的角度来进行分析
+--
+
+=== 闭源软件是什么
+
+**Closed source** software, also often referred to as proprietary software, is non-free computer software for which the software's publisher or another person retains intellectual rights beyond those allowed for open source software— usually copyright of the source code but sometimes also patent rights.
+
+[NOTE.speaker]
+--
+* Wikipedia的介绍，可以闭源软件，相关的许可证限制，知识产权的角度来进行分析
+--
+
+=== 什么是开放标准 Open Standards？
+
+**Open Standards** are publicly available and royalty-free, while 'standard' means a technology approved by formalized committees that are open to participation by all interested parties and operate on a consensus basis. An open standard is publicly available, and developed, approved and maintained via a collaborative and consensus driven process.
+
+
+[NOTE.speaker]
+--
+* 开放标准与开源软件和闭源软件之间的关系， 开放标准制定的过程， 
+--
+
+== 开源软件的历史
+* 实用主义与理想主义的碰撞
+* 开放标准带来的巨大影响
+
+=== 历史故事
+* 1950s-1960s, 软件是在公众领域 public domain
+* 1960s, 操作系统出现， 软件公司兴起， 大家开始讨论开源
+* 1970s-1980s,  GNU 以及 Free Software Foundation
+* 1997, Eric 《大教堂与集市》。 1998, 定义‘open source software.’ 
+ 
+=== 实用主义与理想主义
+* Free Software vs Open Source Software
+* Idealis vs Pragmatism
+
+=== 开放标准演进的过程
+* 封闭标准 (4G, Bluetooth, or WiFi)
+* 事实标准 (Linux)
+* 开放标准 (HTTP, TCP/IP, PDF)
+
+== 使用开源软件的原因
+* 开源的社区化合作开发模式
+* 对于企业开源的价值是什么
+* 开源与开放标准相互协作
+
+=== Open Source Community
+* 全球分布的开发资源 
+* 去中心化的决策能力 
+* 开发和决策的透明
+* Meritocracy
+** 通过长期持续的贡献赢得影响力
+
+=== 社群的组织架构
+image::community-org-structure.png[]
+
+=== 与其他的开发模式相比
+* 影响力和威望并不是由头衔或职位赋予的。
+* 在源代码和决策制定方面的透明度至关重要。
+* 异步通信模式和文化已经成为常态。
+
+=== 开源在商业层面带来的优势
+* 开发速度
+* 开发成本
+* 客户定制化
+* 创新
+* 安全
+* 商业模式
+* 灵活的商业许可
+
+=== 加速软件开发效率
+* 开源软件的获取非常方便快捷
+* 开源软件的部署运行很方便
+* 开源软件依托社区推动的功能开发演进得非常快
+* 依托社区层面的测试，开源软件很快成熟
+* 开源软件依托社区协同更好地支持定制
+* 依托于持续的迭代演进，开源软件的运行会更便捷
+
+=== 为什么开源会降低成本
+* 根据红帽的 https://www.redhat.com/cms/managed-files/rh-enterprise-open-source-report-detail-f21756-202002-en.pdf[一份研究]，开源软件比商业或者闭源软件的持有成本低30%
+* 开源软件可以结合需求进行裁剪
+* 开源软件避免厂商锁定并鼓励竞争
+* 开源带来的技术共享，可以降低我们在咨询、培训、支持的费用
+* 活跃的社区会为开源软件进提供高水平的支持服务
+
+=== 为什么开源能带来这样的好处
+* 开源软件使供应商独立和有竞争力的选择成为可能。
+* 开源软件通常在部署方面内有什么合同限制。
+* 您可以修改开源代码，创建任何所需的自定义功能。
+* 开源社区鼓励和促进定制。
+* 健康的开源社区提供持续的支持，并鼓励提供改进意见和建议
+
+
+=== 开源是如何支持创新的
+* 互联网主要是由许多开源项目组成的大型集合体。
+* 软件开发工具的创新和集成主要是在开源领域进行的。
+* 移动通信领域惊人的创新速度只有通过开源才有可能。
+* 科学计算和大规模并行计算领域几乎完全是开源领域。
+
+=== 开源安全性问题 (TODO)
+* 软件无论是否开源都存在漏洞的可能
+* 面对漏洞的态度问题
+* 各国对软件供应链安全的关注
+* 开放的代码可以被更多双眼睛审查
+* 闭源软件也是会受其依赖开源软件的影响
+
+
+
+=== 开源带来商业价值
+* 开源是用很有效的获取市场的途径
+* 企业已经拥抱开源所带来的高效开放模式
+* 开源开发方式已被顶尖公司所采纳
+
+=== 连接开源与开放标准
+* 开源的生态影响力日益明显
+* 开源与开放标准的联动日益密切 （IETF，OASIS）
+* 构建开源实现开放标准有助于推动开源软件的广泛使用
+
+
+== 参考资料
+* https://github.com/todogroup/ospo-career-path/blob/main/OSPO-101/module1/README.md[TODO-Group Introduce Open Source]
